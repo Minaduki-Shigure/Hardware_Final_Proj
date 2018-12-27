@@ -30,6 +30,8 @@
 //ADC实验  
 //技术支持：www.openedv.com
 //广州市星翼电子科技有限公司
+//Modified by Minaduki Shigure from Nanjing University. All rights reserved.
+//This project is protected by MIT licence.
    	
  int main(void)
  { 
@@ -60,7 +62,7 @@
 	LCD_ShowString(60,90,200,16,16,"Minaduki Shigure");
 	POINT_COLOR=RED;//设置字体为红色 
 	LCD_ShowString(60,110,200,16,16," P1:IN  P4:OUT");	
-	LCD_ShowString(60,130,200,16,16,"WK_UP:+  KEY0:-");	
+	LCD_ShowString(60,130,200,16,16," WK_UP:+  KEY0:-");	
 	//显示提示信息											      
 	POINT_COLOR=BLUE;//设置字体为蓝色
 	LCD_ShowString(60,150,200,16,16,"DAC VAL:");	      
